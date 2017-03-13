@@ -1,0 +1,20 @@
+---
+h1:
+  font-family: chronicle roman
+  font-size: 40px
+
+h2:
+  font-family: chronicle roman
+  font-size: 30px
+
+copy1:
+  font-family: chronicle roman
+  font-size: 16px
+
+copy2:
+  font-family: chronicle roman
+  font-size: 14px
+
+copy3:
+  font-family: engravers regular
+  font-size: 16px
