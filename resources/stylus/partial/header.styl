@@ -1,0 +1,45 @@
+
+header
+  > .logo
+    float left
+    width 202px
+    height 46px
+    > svg > path
+      fill gc(blue1)
+
+  .menu
+    width 393px
+    margin auto
+    gf(copy3) 
+    > .item
+      display inline-block
+      text-align center
+      cursor pointer
+      padding 5px 10px
+      &.on
+        color gc(gold1)
+
+  .contact
+    float right
+    gf(copy2)
+    color gc(grey1)
+    > .title, > .address > .line, > .email
+      margin 0 0 5px 0
+    > .email
+      width 30px
+      height 30px
+      > svg > path
+        fill gc(grey1)
+
+  .socials
+    position absolute
+    top 100px
+    left 10px
+    > a.social
+      display block
+      width 25px
+      height 25px
+      clear both
+      margin 0 0 10px 0
+
+

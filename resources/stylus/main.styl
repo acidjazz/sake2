@@ -8,7 +8,17 @@ vendor-prefixes ?= webkit moz o ms official
   clearfix()
 
 body
-  padding 0
-  margin 0
   background-color gc(white1)
   gf(copy1)
+  padding 50px 10px 0 10px
+  margin 0 10px 0 10px
+
+.container
+  max-width 1200px
+  margin auto
+  min-height 200px
+  position relative
+
+@import '/partial/*'
+@import 'index'
+

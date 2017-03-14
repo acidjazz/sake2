@@ -14,7 +14,9 @@ copy1:
 copy2:
   font-family: chronicle roman
   font-size: 14px
+  letter-spacing: 2px
 
 copy3:
   font-family: engravers regular
-  font-size: 16px
+  font-size: 20px
+
