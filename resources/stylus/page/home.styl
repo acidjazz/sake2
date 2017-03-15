@@ -1,0 +1,93 @@
+.page.home
+  min-height 200px
+  margin 0 0 0 90px
+
+  > .title
+    gf(h2)
+    text-transform uppercase
+    color gc(blue1)
+    margin 0 0 60px 0
+
+  > .tiles
+    > .tile
+      display block
+      position relative
+      float left
+      overflow hidden
+      > .image
+        background-color rgba(gc(blue1), 0.5)
+        background-size contain
+        filter blur(0px)
+        transition filter 0.2s linear 0.1s
+      > .hover
+        position absolute
+        top 0
+        left 0
+        background-color rgba(gc(blue1), 0.5)
+        width 100%
+        height 100%
+        opacity 0
+        transition opacity 0.2s linear
+        > .title
+          position absolute
+          gf(h2)
+          top 50%
+          opacity 0
+          width 100%
+          height 24px
+          margin-top -12px
+          text-align center
+          color gc(white1)
+          letter-spacing 4px
+          transition all 0.2s linear 0.1s
+          transform scale(1.05)
+          text-transform uppercase
+      &:hover
+        > .image
+          filter blur(4px)
+        > .hover
+          opacity 1
+          > .title
+            opacity 1
+            transform scale(1)
+
+      &.tile_left
+        margin 0 30px 30px 0
+      &.tile_full
+        margin 0 0 30px 0
+
+      &.tile_fullsun > .image
+        width 626px
+        height 444px
+        background-image url('/images/tiles/home/FullSun_626x444px_1.jpg')
+      &.tile_eldestilado > .image
+        width 422px
+        height 444px
+        background-image url('/images/tiles/home/ElDestilado_422x444px_2.jpg')
+      &.tile_sufferfest > .image
+        width 506px
+        height 365px
+        background-image url('/images/tiles/home/Sufferfest_506x365px_3.jpg')
+      &.tile_sumi > .image
+        width 542px
+        height 365px
+        background-image url('/images/tiles/home/Sumi_542x365px_4.jpg')
+      &.tile_brownestate > .image
+        width 1078px
+        height 625px
+        background-image url('/images/tiles/home/BrownEstate_1078x625px_5.jpg')
+
+      &.tile_viehealing > .image
+        width 674px
+        height 625px
+        background-image url('/images/tiles/home/VieHealing_674x625px_6.jpg')
+
+      &.tile_fjordlife > .image
+        width 374px
+        height 624px
+        background-image url('/images/tiles/home/Fjordlife_374x624px_7.jpg')
+
+      &.tile_goldpr > .image
+        width 506px
+        height 365px
+        background-image url('/images/tiles/home/GoldPR_506x365px_8.jpg')
