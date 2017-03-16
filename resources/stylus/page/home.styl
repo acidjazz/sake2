@@ -14,11 +14,12 @@
       position relative
       float left
       overflow hidden
+      background-size cover
       > .image
         background-color rgba(gc(blue1), 0.5)
         background-size contain
-        filter blur(0px)
-        transition filter 0.2s linear 0.1s
+        width inherit
+        height inherit
       > .hover
         position absolute
         top 0
@@ -44,7 +45,6 @@
           text-transform uppercase
       &:hover 
         > .image
-          filter blur(1px)
         > .hover
           opacity 1
           > .title
@@ -56,10 +56,12 @@
       &.tile_full
         margin 0 0 30px 0
 
-      &.tile_fullsun > .image
+      &.tile_fullsun
         width 626px
         height 444px
-        background-image url('/images/tiles/home/FullSun_626x444px_1.jpg')
+        background-image url('/images/tiles/home/FullSun_20x20px_1.jpg')
+        > .image
+          background-image url('/images/tiles/home/FullSun_626x444px_1.jpg')
       &.tile_eldestilado > .image
         width 422px
         height 444px
