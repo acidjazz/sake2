@@ -8,6 +8,10 @@ h2:
   letter-spacing: 2px
   font-size: 20px
 
+h3:
+  font-family: chronicle roman
+  letter-spacing: 2px
+  font-size: 15px
 
 copy1:
   font-family: chronicle roman
@@ -20,5 +24,6 @@ copy2:
 
 copy3:
   font-family: engravers regular
-  font-size: 20px
+  font-size: 12px
+  letter-spacing: 2px
 

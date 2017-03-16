@@ -1,6 +1,6 @@
 
 header
-  .logo
+  a.logo(href='/')
     include ../../vector/logo1.svg
 
   .contact
@@ -13,10 +13,10 @@ header
       include ../../vector/email.svg
 
   .menu
-    .item.on .work.
-    .item .studio.
-    .item .contact.
-    .item .journal.
+    a.item.on(href='/work') .work.
+    a.item(href='/studio') .studio.
+    a.item(href='/studio') .contact.
+    a.item(href='/studio') .journal.
 
   .socials
     a.social.instagram(href=config.social.instagram,target='_new')
@@ -27,6 +27,8 @@ header
       include ../../vector/facebook.svg
     a.social.dribbble(href=config.social.dribbble,target='_new')
       include ../../vector/dribbble.svg
+    a.social.behance(href=config.social.behance,target='_new')
+      include ../../vector/behance.svg
 
   .clear
 .clear

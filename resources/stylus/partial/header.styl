@@ -12,11 +12,13 @@ header
     float right
     margin 0 50px 0 0 
     gf(copy3) 
-    > .item
+    > a.item
+      text-decoration none
       display inline-block
       text-align center
       cursor pointer
       padding 5px 10px
+      color gc(blue1)
       &.on
         color gc(gold1)
 
@@ -38,14 +40,11 @@ header
     left 10px
     > a.social
       display block
-      width 25px
-      height 25px
-      clear both
-      margin 0 0 10px 0
+      width 20px
+      height 20px
+      padding  10px 5px 10px 5px
       > svg > path
         fill gc(grey1)
         transition fill 0.1s linear 0s
       &:hover > svg > path
         fill gc(blue1)
-
-

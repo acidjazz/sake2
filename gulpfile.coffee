@@ -86,7 +86,7 @@ gulp.task 'stylus', ->
 
 gulp.task 'pug', ->
   objectify ->
-    gulp.src(dirs.pug + '/**/index.pug')
+    gulp.src(dirs.pug + '/pages/**/index.pug')
       .pipe(pug(
         pretty: true
         locals:
