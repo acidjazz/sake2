@@ -8,6 +8,13 @@
     > .subtitle
       padding 0 0 10px 0
 
+    > .largetext
+      gf(h1)
+      text-transform uppercase
+      color gc(gold1)
+      text-align left
+      letter-spacing 3px
+
 
     > ul.listing
       margin 0
@@ -20,3 +27,30 @@
         margin 0
         padding 0 0 10px 0
         color gc(gold1)
+
+  > .main
+    > .title
+      text-align left
+    > p
+      gf(copy3)
+      color gc(gold1)
+      line-height 16px
+      margin-bottom 20px
+
+  > .tiles
+    margin 30px 0
+    padding 0 0 30px 0
+    border-bottom 1px solid gc(blue1)
+
+    > .tile
+      background-size contain
+      float left
+      &.tile_office1
+        width 684px
+        height 525px
+        background-image url('/images/tiles/studio/Office_684x525px_1.jpg')
+        margin 0 30px 0 0
+      &.tile_office2
+        width 364px
+        height 525px
+        background-image url('/images/tiles/studio/Office_364x525px_2.jpg')
