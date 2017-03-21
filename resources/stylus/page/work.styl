@@ -1,0 +1,29 @@
+.page.work
+  > p
+    gf(copy3)
+  > .title
+    margin 0
+
+  > .sidebar
+    width 250px
+    min-height auto
+    margin 30px 0 30px 30px
+
+    > ul.listing
+      columns 1
+
+  > .tiles
+    > .tile
+      display block
+      float left
+      background-size cover
+      > .image
+        background-color rgba(gc(blue1), 0.5)
+        background-size contain
+        width inherit
+        height inherit
+
+      &.tile_left
+        margin 0 30px 30px 0
+      &.tile_full
+        margin 0 0 30px 0
