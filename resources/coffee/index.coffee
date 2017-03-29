@@ -1,4 +1,4 @@
 Index =
 
   i: ->
-    console.log 'Index.i()'
+    console.log 'Index.weprojweporj()'

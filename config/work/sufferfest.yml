@@ -1,0 +1,50 @@
+folder: fullsun
+title: full sun
+description:
+    - DESIGNSAKE STUDIO SAW AN OPPORTUNITY TO SHAKE UP THE EVER-GROWING CANNABIS SPACE WITH A FRESH APPROACH FULL OF CALIFORNIA SOUL. THE DESIGNSAKE TEAM PAIRED RETRO TYPOGRAPHY WITH BRIGHT COLORS AND MODERN GEOMETRIC PATTERNS. A BOLD GRADIENT INSPIRED BY NATURE’S SKIES AND SPLASHES OF GOLD FOIL ADD A BURST OF PREMIUM SHINE.
+    - INSPIRED BY CALIFORNIA’S WARM AND INVIGORATING SUNSHINE, FULL SUN IS A 100% ALL-NATURAL, SUSTAINABLY FARMED CANNABIS LINE. PROUDLY RAISED UNDER THE SUNBELT OF HUMBOLDT COUNTY, THIS BRAND’S PRODUCT LINE IS A RESULT OF MELLOW OCEAN BREEZES, TOWERING REDWOODS AND SUN-DRENCHED HILLSIDES, YIELDING CANNABIS OF UNPARALLELED QUALITY, TASTE, AND PERFORMANCE.
+services:
+  - brand identity
+  - packaging
+  - art direction
+
+tiles:
+  - image: FullSun_684x525px_1.jpg
+    width: 684
+    height: 525
+    left: true
+  - image: FullSun_364x525px_2.jpg
+    width: 364
+    height: 525
+
+  - image: FullSun_1078x537px_3.jpg
+    width: 1078
+    height: 537
+    full: true
+  - image: FullSun_512x453px_4.jpg
+    left: true
+    width: 512
+    height: 453
+  - image: FullSun_536x453px_5.jpg
+    width: 535
+    height: 453
+
+  - image: FullSun_1078x537px_6.jpg
+    full: true
+    width: 1078
+    height: 537
+
+  - image: FullSun_512x453px_7.jpg
+    left: true
+    width: 512
+    height: 453
+
+  - image: FullSun_536x208px_8.jpg
+    width: 536
+    height: 208
+    full: true
+
+  - image: FullSun_536x208px_9.jpg
+    width: 536
+    height: 208
+ 

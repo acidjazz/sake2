@@ -1,10 +1,12 @@
+
 gulp         = require 'gulp'
-sync         = require('browser-sync').create()
+sync         = require('browser-sync')
 notify       = require 'gulp-notify'
 coffee       = require 'gulp-coffee'
 uglify       = require 'gulp-uglify'
 clean        = require 'gulp-clean-css'
 htmlmin      = require 'gulp-htmlmin'
+htmlInjector = require 'bs-html-injector'
 concat       = require 'gulp-concat'
 stylus       = require 'gulp-stylus'
 pug          = require 'gulp-pug'
@@ -12,6 +14,10 @@ sourcemaps   = require 'gulp-sourcemaps'
 gulpif       = require 'gulp-if'
 fs           = require 'fs'
 objectus     = require 'objectus'
+spawn        = require('child_process').spawn
+gutil        = require('gulp-util')
+
+
 
 env = 'dev'
 
@@ -88,7 +94,7 @@ gulp.task 'pug', ->
   objectify ->
     gulp.src(dirs.pug + '/pages/**/index.pug')
       .pipe(pug(
-        pretty: true
+        #pretty: true
         locals:
           config: config
       ).on('error', notify.onError((error) ->
@@ -100,18 +106,22 @@ gulp.task 'pug', ->
         processScripts: ['application/ld+json', 'text/javascript']
       )))
       .pipe(gulp.dest('public'))
-      .pipe sync.stream()
+      #.pipe(sync.stream())
 
 watch = ->
   gulp.watch 'config/**/*', ['objectus','pug','stylus']
   gulp.watch [dirs.coffee + '/**/*.coffee','!' + dirs.coffee + '/config.coffee'], ['coffee']
   gulp.watch dirs.stylus + '/**/*.styl', ['stylus']
+
   gulp.watch dirs.pug + '/**/*.pug', ['pug']
+
   gulp.watch dirs.svg + '/**/*.svg', ['pug']
   gulp.watch 'public/images/**/*', ['pug']
 
+  #gulp.watch 'public/**/*.html', htmlInjector
+
 gulp.task 'sync', ->
-  sync.init
+  settings = 
     notify: false
     open: false
     server: baseDir: 'public/'
@@ -120,6 +130,11 @@ gulp.task 'sync', ->
       forms: false
       scroll: false
     scrollProportionally: false
+
+  sync.use htmlInjector,
+    files: ["public/**/*.html"]
+
+  sync.init(settings)
   watch()
 
 gulp.task 'watch', watch
