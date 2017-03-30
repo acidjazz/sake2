@@ -1,0 +1,22 @@
+.page.work
+
+  .sidebar
+    .subtitle .SERVICES.
+    ul.listing
+      each service in work.services
+        li=service
+
+  .title .#{work.title}.
+  each p in work.description
+    p=p
+
+  .tiles
+    each tile in work.tiles
+      .tile(
+        class= tile.left ? 'tile_left' : ''
+        class= tile.stack ? 'tile_stack' : ''
+        class= tile.full ? 'tile_full' : ''
+        style='width: '+tile.width+'px; height: '+tile.height+'px;'
+      )
+        .image(style='background-image: url(/images/tiles/work/' + work.folder + '/' + tile.image + ');')
+    .clear
