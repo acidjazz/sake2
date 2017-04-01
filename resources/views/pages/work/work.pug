@@ -14,8 +14,10 @@
     each tile in work.tiles
       .tile(
         class= tile.left ? 'tile_left' : ''
+        class= tile.clear ? 'tile_clear' : ''
         class= tile.stack ? 'tile_stack' : ''
         class= tile.full ? 'tile_full' : ''
+        class= tile.right ? 'tile_right' : ''
         style='width: '+tile.width+'px; height: '+tile.height+'px;'
       )
         .image(style='background-image: url(/images/tiles/work/' + work.folder + '/' + tile.image + ');')
