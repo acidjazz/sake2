@@ -13,6 +13,7 @@ tiles:
     width: 684
     height: 525
     left: true
+
   - image: FullSun_364x525px_2.jpg
     width: 364
     height: 525
@@ -21,10 +22,12 @@ tiles:
     width: 1078
     height: 537
     full: true
+
   - image: FullSun_512x453px_4.jpg
     left: true
     width: 512
     height: 453
+
   - image: FullSun_536x453px_5.jpg
     width: 535
     height: 453
