@@ -1,0 +1,73 @@
+folder: brown
+title: brown estate
+description:
+    - DESIGNSAKE STUDIO SAW AN OPPORTUNITY TO SHAKE UP THE EVER-GROWING CANNABIS SPACE WITH A FRESH APPROACH FULL OF CALIFORNIA SOUL. THE DESIGNSAKE TEAM PAIRED RETRO TYPOGRAPHY WITH BRIGHT COLORS AND MODERN GEOMETRIC PATTERNS. A BOLD GRADIENT INSPIRED BY NATURE’S SKIES AND SPLASHES OF GOLD FOIL ADD A BURST OF PREMIUM SHINE.
+    - INSPIRED BY CALIFORNIA’S WARM AND INVIGORATING SUNSHINE, FULL SUN IS A 100% ALL-NATURAL, SUSTAINABLY FARMED CANNABIS LINE. PROUDLY RAISED UNDER THE SUNBELT OF HUMBOLDT COUNTY, THIS BRAND’S PRODUCT LINE IS A RESULT OF MELLOW OCEAN BREEZES, TOWERING REDWOODS AND SUN-DRENCHED HILLSIDES, YIELDING CANNABIS OF UNPARALLELED QUALITY, TASTE, AND PERFORMANCE.
+services:
+  - brand identity
+  - packaging
+  - art direction
+
+#:13,28s/\v(\w+)_(\d+)x(\d+)px_(\d+).jpg/- image: \1_\2x\3px_\4.jpg\r\twidth: \2\r\theight: \3
+
+tiles:
+  - image: Brown_1079x725px_1.jpg
+    width: 1079
+    height: 725
+    full: true
+  - image: Brown_520x762px_2.jpg
+    left: true
+    width: 520
+    height: 762
+  - image: Brown_527x365px_3.jpg
+    width: 527
+    height: 365
+    stack: true
+  - image: Brown_527x365px_4.jpg
+    width: 527
+    height: 365
+  - image: Brown_1079x625px_5.jpg
+    width: 1079
+    height: 625
+    full: true
+  - image: Brown_339x530px_6.jpg
+    left: true
+    width: 339
+    height: 530
+  - image: Brown_339x530px_7.jpg
+    width: 339
+    height: 530
+    left: true
+  - image: Brown_339x530px_8.jpg
+    width: 339
+    height: 530
+
+  - image: Brown_707x700px_11.jpg
+    width: 707
+    height: 700
+    right: true
+  - image: Brown_339x229px_9.jpg
+    width: 339
+    height: 229
+    stack: true
+  - image: Brown_678x900px_10.jpg
+    width: 339
+    height: 439
+    left: true
+
+  - image: Brown_1079x625px_12.jpg
+    full: true
+    width: 1079
+    height: 625
+
+  - image: Brown_520x762px_13.jpg
+    width: 520
+    height: 762
+    left: true
+  - image: Brown_527x365px_14.jpg
+    width: 527
+    height: 365
+    stack: true
+  - image: Brown_527x365px_15.jpg
+    width: 527
+    height: 365
