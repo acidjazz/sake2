@@ -18,7 +18,7 @@
         class= tile.stack ? 'tile_stack' : ''
         class= tile.full ? 'tile_full' : ''
         class= tile.right ? 'tile_right' : ''
-        style='width: '+tile.width+'px; height: '+tile.height+'px;'
+        style='width: '+tile.width+'px; height: '+tile.height+'px; background-image: url(/images/tiles/work/' + work.folder + '/thumbs/' + tile.image + ');'
       )
-        .image(style='background-image: url(/images/tiles/work/' + work.folder + '/' + tile.image + ');')
+        .image.off(style='background-image: url(/images/tiles/work/' + work.folder + '/' + tile.image + ');')
     .clear
