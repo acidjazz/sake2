@@ -19,7 +19,7 @@ header
       cursor pointer
       padding 5px 10px
       color gc(blue1)
-      &.on
+      &.on, &:hover
         color gc(gold1)
 
   .contact
@@ -28,11 +28,22 @@ header
     color gc(grey1)
     > .title, > .address > .line, > .email
       margin 0 0 5px 0
+      color gc(grey1)
+      gf(copy2)
+    > .address
+      transition color 0.1s linear 0s
+      &:hover
+        color gc(gold1)
     > .email
+      display block
       width 25px
-      height 25px
+      height 23px
+      &:hover
+        > svg > path
+          fill gc(gold1)
       > svg > path
         fill gc(grey1)
+        transition fill 0.1s linear
 
   .socials
     position absolute

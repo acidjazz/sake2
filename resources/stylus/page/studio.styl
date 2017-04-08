@@ -9,16 +9,16 @@
       padding 0 0 10px 0
 
     > .largetext
-      gf(h1)
+      gf(h4)
       text-transform uppercase
-      color gc(gold1)
+      color gc(grey1)
       text-align left
       letter-spacing 3px
 
 
     > ul.listing
       margin 0
-      padding 0 0 20px 0
+      padding 0 0 40px 0
       list-style-type none
       columns 2
       column-gap 0
@@ -26,15 +26,25 @@
         gf(copy3)
         margin 0
         padding 0 0 10px 0
-        color gc(gold1)
+        color gc(grey1)
+        line-height 12px
+        > a
+          color gc(grey1)
+          display block
+          gf(copy3)
+          font-size 14px
+          text-decoration underline
+          &:hover
+            color gc(gold1)
 
   > .main
     > .title
       text-align left
+      gf(h5)
+      margin 0 0 30px 0
     > p
       gf(copy3)
-      color gc(gold1)
-      line-height 16px
+      color gc(grey1)
       margin-bottom 20px
 
   > .tiles
