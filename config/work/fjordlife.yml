@@ -1,0 +1,59 @@
+folder: fjordlife
+title: fjordlife
+description:
+    - DESIGNSAKE STUDIO SAW AN OPPORTUNITY TO SHAKE UP THE EVER-GROWING CANNABIS SPACE WITH A FRESH APPROACH FULL OF CALIFORNIA SOUL. THE DESIGNSAKE TEAM PAIRED RETRO TYPOGRAPHY WITH BRIGHT COLORS AND MODERN GEOMETRIC PATTERNS. A BOLD GRADIENT INSPIRED BY NATURE’S SKIES AND SPLASHES OF GOLD FOIL ADD A BURST OF PREMIUM SHINE. INSPIRED BY CALIFORNIA’S WARM AND INVIGORATING SUNSHINE, FULL SUN IS A 100% ALL-NATURAL, SUSTAINABLY FARMED CANNABIS LINE. PROUDLY RAISED UNDER THE SUNBELT OF HUMBOLDT COUNTY, THIS BRAND’S PRODUCT LINE IS A RESULT OF MELLOW OCEAN BREEZES, TOWERING REDWOODS AND SUN-DRENCHED HILLSIDES, YIELDING CANNABIS OF UNPARALLELED QUALITY, TASTE, AND PERFORMANCE.
+services:
+  - brand identity
+  - packaging
+  - art direction
+
+#:13,28s/\v(\w+)_(\d+)x(\d+)px_(\d+).jpg/- image: \1_\2x\3px_\4.jpg\r\twidth: \2\r\theight: \3
+
+tiles:
+  - image: Fjordlife_1079x675px_1.jpg
+    full: true
+    width: 1079
+    height: 675
+
+  - image: Fjordlife_589x600px_4.jpg
+    right: true
+    width: 589
+    height: 600
+  - image: Fjordlife_456x284px_2.jpg
+    left: true
+    width: 456
+    height: 284
+  - image: Fjordlife_456x284px_3.jpg
+    width: 456
+    height: 284
+
+  - image: Fjordlife_1079x536px_5.jpg
+    width: 1079
+    height: 536
+    full: true
+
+  - image: Fjordlife_587x918px_8.jpg
+    width: 587
+    height: 918
+    right: true
+  - image: Fjordlife_456x642px_6.jpg
+    width: 456
+    height: 642
+    left: true
+  - image: Fjordlife_456x243px_7.jpg
+    width: 456
+    height: 243
+
+  - image: Fjordlife_1079x2031px_9.jpg
+    width: 1079
+    height: 2031
+    full: true
+
+  - image: Fjordlife_589x600px_10.jpg
+    width: 589
+    height: 600
+    left: true
+  - image: Fjordlife_456x599px_11.jpg
+    width: 456
+    height: 599
+
