@@ -9,6 +9,8 @@
   .title .#{work.title}.
   each p in work.description
     p=p
+  if work.link
+    a.link(href=work.link,target="_blank")=work.link
 
   .tiles
     each tile in work.tiles

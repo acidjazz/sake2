@@ -1,11 +1,16 @@
 folder: vie
 title: vie healing
 description:
-    - DESIGNSAKE STUDIO SAW AN OPPORTUNITY TO SHAKE UP THE EVER-GROWING CANNABIS SPACE WITH A FRESH APPROACH FULL OF CALIFORNIA SOUL. THE DESIGNSAKE TEAM PAIRED RETRO TYPOGRAPHY WITH BRIGHT COLORS AND MODERN GEOMETRIC PATTERNS. A BOLD GRADIENT INSPIRED BY NATURE’S SKIES AND SPLASHES OF GOLD FOIL ADD A BURST OF PREMIUM SHINE. INSPIRED BY CALIFORNIA’S WARM AND INVIGORATING SUNSHINE, FULL SUN IS A 100% ALL-NATURAL, SUSTAINABLY FARMED CANNABIS LINE. PROUDLY RAISED UNDER THE SUNBELT OF HUMBOLDT COUNTY, THIS BRAND’S PRODUCT LINE IS A RESULT OF MELLOW OCEAN BREEZES, TOWERING REDWOODS AND SUN-DRENCHED HILLSIDES, YIELDING CANNABIS OF UNPARALLELED QUALITY, TASTE, AND PERFORMANCE.
+  - A holistic healing approach that brings harmony to the mind, body, and spirit.
+  - The identity and packaging draws on organic colors and textures found in loose leaf teas and herbal supplements. Bold typography, tone on tone layering, and delicate lines of gold foil evoke a new sophistication to home remedies for everyday healing.
 services:
+  - strategy
   - brand identity
   - packaging
-  - art direction
+  - print
+  - product development
+  - Website Design + Development
+  - Photography
 
 #:13,28s/\v(\w+)_(\d+)x(\d+)px_(\d+).jpg/- image: \1_\2x\3px_\4.jpg\r\twidth: \2\r\theight: \3
 
@@ -39,10 +44,10 @@ tiles:
   - image: Vie_366x208px_8.jpg
     width: 366
     height: 208
+    stack: true
   - image: Vie_366x387px_9.jpg
     width: 366
     height: 387
-    stack: true
   - image: Vie_364x525px_10.jpg
     width: 364
     height: 525

@@ -1,0 +1,42 @@
+folder: benefitcosmetics
+title: benefit cosmetics
+description:
+  - Benefit Cosmetics has coined the bold and girly persona in the cosmetics industry. After 30 plus years of business, Benefit developed a rich visual history that continues to shape the company's identity and impacts the beauty industry around the world.
+  - As a brand, Benefit continues to experiment with color, patterns, and type everywhere possible, whether it be in product packaging or retail spaces, all the while staying true to its unique DNA. Featured here are samples of product packaging and marketing collateral we created for the company.
+services:
+  - print
+  - packaging
+
+#:13,28s/\v(\w+)_(\d+)x(\d+)px_(\d+).jpg/- image: \1_\2x\3px_\4.jpg\r\twidth: \2\r\theight: \3
+
+tiles:
+  - image: Benefit_1079x550px_1.jpg
+    width: 1079
+    height: 550
+    full: true
+
+  - image: Benefit_527x930px_4.jpg
+    right: true
+    width: 527
+    height: 930
+  - image: Benefit_520x366px_2.jpg
+    width: 520
+    height: 366
+    stack: true
+  - image: Benefit_520x532px_3.jpg
+    width: 520
+    height: 532
+
+  - image: Benefit_1079x634px_5.jpg
+    width: 1079
+    height: 634
+    full: true
+
+  - image: Benefit_520x455px_6.jpg
+    width: 520
+    height: 455
+    left: true
+  - image: Benefit_527x455px_7.jpg
+    width: 527
+    height: 455
+
