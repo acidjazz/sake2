@@ -1,0 +1,63 @@
+folder: urbankitchen
+title: urbankitchen
+description:
+    - DESIGNSAKE STUDIO SAW AN OPPORTUNITY TO SHAKE UP THE EVER-GROWING CANNABIS SPACE WITH A FRESH APPROACH FULL OF CALIFORNIA SOUL. THE DESIGNSAKE TEAM PAIRED RETRO TYPOGRAPHY WITH BRIGHT COLORS AND MODERN GEOMETRIC PATTERNS. A BOLD GRADIENT INSPIRED BY NATURE’S SKIES AND SPLASHES OF GOLD FOIL ADD A BURST OF PREMIUM SHINE. INSPIRED BY CALIFORNIA’S WARM AND INVIGORATING SUNSHINE, FULL SUN IS A 100% ALL-NATURAL, SUSTAINABLY FARMED CANNABIS LINE. PROUDLY RAISED UNDER THE SUNBELT OF HUMBOLDT COUNTY, THIS BRAND’S PRODUCT LINE IS A RESULT OF MELLOW OCEAN BREEZES, TOWERING REDWOODS AND SUN-DRENCHED HILLSIDES, YIELDING CANNABIS OF UNPARALLELED QUALITY, TASTE, AND PERFORMANCE.
+services:
+  - brand identity
+  - packaging
+  - art direction
+
+#:13,28s/\v(\w+)_(\d+)x(\d+)px_(\d+).jpg/- image: \1_\2x\3px_\4.jpg\r\twidth: \2\r\theight: \3
+
+tiles:
+  - image: Urban_684x525px_1.jpg
+    left: true
+    width: 684
+    height: 525
+  - image: Urban_364x525px_2.jpg
+    width: 364
+    height: 525
+
+  - image: Urban_1079x537px_3.jpg
+    full: true
+    width: 1079
+    height: 537
+
+  - image: Urban_534x737px_4.jpg
+    width: 534
+    height: 737
+    left: true
+  - image: Urban_517x356px_5.jpg
+    width: 517
+    height: 356
+    stack: true
+  - image: Urban_517x352px_6.jpg
+    width: 517
+    height: 352
+
+  - image: Urban_1079x655px_7.jpg
+    width: 1079
+    height: 655
+    full: true
+
+  - image: Urban_508x688px_8.jpg
+    width: 508
+    height: 688
+    left: true
+  - image: Urba_543x688px_9.jpg
+    width: 543
+    height: 688
+
+  - image: Urban_370x525px_10.jpg
+    width: 370
+    height: 525
+    left: true
+    clear: true
+  - image: Urban_681x525px_11.jpg
+    width: 681
+    height: 525
+
+  - image: Urban_1079x537px_12.jpg
+    full: true
+    width: 1079
+    height: 537
