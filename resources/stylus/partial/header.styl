@@ -1,4 +1,3 @@
-
 header
   position relevant
   > .logo
@@ -60,3 +59,17 @@ header
         transition fill 0.1s linear 0s
       &:hover > svg > path, > svg > rect
         fill gc(blue1)
+
+@media all and (min-width: 1px) and (max-width: 1000px)
+  header
+    padding 10px
+    > .menu
+      float none
+      clear both
+      margin auto
+      padding 20px 0 0 0
+      width 270px
+    > .socials
+      display none
+
+
