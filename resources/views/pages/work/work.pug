@@ -7,8 +7,10 @@
         li=service
 
   .title .#{work.title}.
-  each p in work.description
-    p=p
+  .copy
+    each p in work.description
+      p=p
+  .clear
   if work.link
     a.link(href=work.link,target="_blank")=work.link
 
