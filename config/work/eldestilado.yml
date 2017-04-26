@@ -10,11 +10,11 @@ services:
   - Web Design
 
 prev:
-  name: "previous: Full Sun"
+  name: "Full Sun"
   folder: fullsun 
 
 next:
-  name: "next: sufferfest beer co"
+  name: "sufferfest beer co"
   folder: sufferfest 
 
 # :12,25s/ElDestilado_\(\d\+\)x\(\d\+\)px_\(\d\+\)..jpg/- image: ElDestilado_\1x\2px_\3.jpg\r\twidth: \1\r\theight: \2

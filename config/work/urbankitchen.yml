@@ -11,11 +11,11 @@ services:
   - Photography
 
 prev:
-  name: "previous: benefit cosmetics "
+  name: "benefit cosmetics "
   folder: benefitcosmetics
 
 next:
-  name: "next: full sun"
+  name: "full sun"
   folder: fullsun
 
 #:13,28s/\v(\w+)_(\d+)x(\d+)px_(\d+).jpg/- image: \1_\2x\3px_\4.jpg\r\twidth: \2\r\theight: \3

@@ -37,6 +37,8 @@
     min-height auto
     margin 30px 0 30px 30px
     color gc(blue1)
+    &.sidebar_mobile
+      display none
 
     > ul.listing
       columns 1
@@ -71,7 +73,7 @@
   .nav
     gf(copy3)
     border-bottom 1px solid gc(blue1)
-    padding 10px 0
+    padding 15px 0
     margin 0 0 20px 0
 
     > a.link
@@ -83,15 +85,23 @@
         float right
       &.prev
         float left
+      > .navarrow, > .navcopy, > .navname
+        display inline
 @media all and (min-width: 1px) and (max-width: 1000px)
   .page.work
     > .sidebar
       float none !important
       margin 20px 10px 0 10px
+      &.sidebar_desktop
+        display none
+      &.sidebar_mobile
+        display block
     > .title
       margin 0 0 0 10px 
     > .copy
       columns 1
       > p, > .link
         margin 10px 
+    > .nav > .link > .navname
+      display none !important
 

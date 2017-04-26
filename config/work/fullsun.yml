@@ -11,7 +11,7 @@ services:
   - Mobile Apps
 
 next:
-  name: "next: El Destilado"
+  name: "El Destilado"
   folder: eldestilado 
 
 tiles:

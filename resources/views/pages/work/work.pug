@@ -1,6 +1,6 @@
 .page.work
 
-  .sidebar
+  .sidebar.sidebar_desktop
     .subtitle .SERVICES.
     ul.listing
       each service in work.services
@@ -10,8 +10,12 @@
   .copy
     each p in work.description
       p !{p}
-  if work.link
-    a.link(href=work.link,target="_blank")=work.link
+
+  .sidebar.sidebar_mobile
+    .subtitle .SERVICES.
+    ul.listing
+      each service in work.services
+        li=service
 
   .tiles
     each tile in work.tiles
@@ -28,7 +32,13 @@
 
   .nav
     if work.next
-      a.link.next(href='/work/' + work.next.folder) .#{work.next.name}. &gt;
+      a.link.next(href='/work/' + work.next.folder) 
+        .navcopy next&nbsp;
+        .navname : .#{work.next.name}. 
+        .navarrow &gt;
     if work.prev
-      a.link.prev(href='/work/' + work.prev.folder) &lt; .#{work.prev.name}.
+      a.link.prev(href='/work/' + work.prev.folder)
+        .navarrow &lt;&nbsp;
+        .navcopy previous
+        .navname : .#{work.prev.name}.
     .clear

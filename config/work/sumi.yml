@@ -12,11 +12,11 @@ services:
 
 
 prev:
-  name: "previous: sufferfest beer co"
+  name: "sufferfest beer co"
   folder: sufferfest 
 
 next:
-  name: "next: brown estate"
+  name: "brown estate"
   folder: brown
 
 #:13,28s/\v(\w+)_(\d+)x(\d+)px_(\d+).jpg/- image: \1_\2x\3px_\4.jpg\r\twidth: \2\r\theight: \3

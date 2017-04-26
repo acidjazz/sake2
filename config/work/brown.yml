@@ -11,11 +11,11 @@ services:
   - art direction
 
 prev:
-  name: "previous: sumi"
+  name: "sumi"
   folder: sumi
 
 next:
-  name: "next: vie healing"
+  name: "vie healing"
   folder: vie
 
 

@@ -10,11 +10,11 @@ services:
   - print
 
 prev:
-  name: "previous: El Destilado"
+  name: "El Destilado"
   folder: eldestilado 
 
 next:
-  name: "next: sumi"
+  name: "sumi"
   folder: sumi
 
 

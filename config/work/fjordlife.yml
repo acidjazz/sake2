@@ -12,11 +12,11 @@ services:
 
 
 prev:
-  name: "previous: vie healing"
+  name: "vie healing"
   folder: vie
 
 next:
-  name: "next: benefit cosmetics "
+  name: "benefit cosmetics "
   folder: benefitcosmetics
 
 tiles:
