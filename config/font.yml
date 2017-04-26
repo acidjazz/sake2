@@ -33,15 +33,20 @@ copy2:
   font-size: 12px
   letter-spacing: 2px
 
-
 copy2s:
   font-family: chronicle roman
-  font-size: 10px
+  font-size: 8px
   letter-spacing: 2px
-
 
 copy3:
   font-family: engravers regular
-  font-size: 12px
-  letter-spacing: 3px
-  line-height: 18px
+  font-size: 11px
+  letter-spacing: 2px
+  line-height: 19px
+
+copy4:
+  font-family: engravers regular
+  font-size: 10px
+  letter-spacing: 2px
+  line-height: 12px
+

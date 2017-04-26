@@ -8,8 +8,16 @@ services:
   - naming
   - copywriting
   - brand identity
-
   - print
+
+
+prev:
+  name: "previous: sufferfest beer co"
+  folder: sufferfest 
+
+next:
+  name: "next: brown estate"
+  folder: brown
 
 #:13,28s/\v(\w+)_(\d+)x(\d+)px_(\d+).jpg/- image: \1_\2x\3px_\4.jpg\r\twidth: \2\r\theight: \3
 
@@ -39,7 +47,8 @@ tiles:
   - image: Sumi_339x229px_5.jpg
     width: 339
     height: 229
-    left: true
+    stack: true
+
   - image: Sumi_339x450px_6.jpg
     width: 339
     height: 450
@@ -67,6 +76,7 @@ tiles:
     height: 530
     left: true
   - image: Sumi_339x530px_13.jpg
-    width: 339
+    width: 338
     height: 530
+    right: true
 

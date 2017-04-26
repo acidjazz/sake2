@@ -9,8 +9,7 @@
   .title .#{work.title}.
   .copy
     each p in work.description
-      p=p
-  .clear
+      p !{p}
   if work.link
     a.link(href=work.link,target="_blank")=work.link
 
@@ -25,4 +24,11 @@
         style='width: '+tile.width+'px; height: '+tile.height+'px; background-image: url(/images/tiles/work/' + work.folder + '/thumbs/' + tile.image + ');'
       )
         .image.off(style='background-image: url(/images/tiles/work/' + work.folder + '/' + tile.image + ');')
+    .clear
+
+  .nav
+    if work.next
+      a.link.next(href='/work/' + work.next.folder) .#{work.next.name}. &gt;
+    if work.prev
+      a.link.prev(href='/work/' + work.prev.folder) &lt; .#{work.prev.name}.
     .clear

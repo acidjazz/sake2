@@ -9,6 +9,15 @@ services:
   - packaging
   - print
 
+prev:
+  name: "previous: El Destilado"
+  folder: eldestilado 
+
+next:
+  name: "next: sumi"
+  folder: sumi
+
+
 tiles:
   - image: Sufferfest_684x525px_1.jpg
     width: 684
@@ -21,10 +30,12 @@ tiles:
     width: 520
     height: 366
     left: true
+
   - image: Sufferfest_528x366px_4.jpg
     width: 528
     height: 366
     right: true
+
   - image: Sufferfest_339x530px_5.jpg
     width: 339
     height: 530

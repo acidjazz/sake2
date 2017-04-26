@@ -1,12 +1,17 @@
 .page.work
   > .copy
     columns 2
+    column-gap 30px
     > p
       gf(copy3)
       color gc(grey1)
       text-transform uppercase
       padding  0 0 10px 0
       margin 0
+      column-span 1
+      > a
+        color gc(gold1)
+        text-decoration underline
 
       /*
       float left
@@ -27,14 +32,19 @@
     padding 40px 0 0 0
 
   > .sidebar
-    width 250px
+    width 120px
+    float right
     min-height auto
     margin 30px 0 30px 30px
+    color gc(blue1)
 
     > ul.listing
       columns 1
+      > li
+        gf(copy4)
 
   > .tiles
+    clear both
     > .tile
       display block
       float left
@@ -57,8 +67,22 @@
         margin 0 0 30px 0
       &.tile_right
         float right
-        margin 0 30px 30px 0
+        margin 0 0 30px 0
+  .nav
+    gf(copy3)
+    border-bottom 1px solid gc(blue1)
+    padding 10px 0
+    margin 0 0 20px 0
 
+    > a.link
+      text-transform uppercase
+      color gc(blue1)
+      &:hover
+        color gc(gold1)
+      &.next
+        float right
+      &.prev
+        float left
 @media all and (min-width: 1px) and (max-width: 1000px)
   .page.work
     > .sidebar

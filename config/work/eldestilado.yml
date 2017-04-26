@@ -2,11 +2,20 @@ folder: eldestilado
 title: el destilado
 description:
   - The best-kept secret amongst locals and mezcal seeking aficionados, El Destilado is a Oaxaca based speakeasy and mezcaleria blending the truest flavors of Mexico with progressive gastronomy.
-  - Vibrant colors and textures of paper and paint imbue the restaurant's identity with a rich sense of culinary traditions and flavors. The copper still logo, casual kraft-paper menus, agave stamped coasters, and playful vintage postcards season the intimate space, inviting locals and visitors alike to partake in an authentic food experience.
+  - Vibrant colors and textures of paper and paint imbue the restaurant's identity with a rich sense of culinary traditions and flavors. The copper still logo, casual kraft-paper menus, agave stamped coasters, and playful vintage postcards season the intimate space, inviting locals and visitors alike to partake in an authentic food experience. <a href="http://www.eldestilado.com/">www.eldestilado.com</a>
+
 services:
   - brand identity
   - print
   - Web Design
+
+prev:
+  name: "previous: Full Sun"
+  folder: fullsun 
+
+next:
+  name: "next: sufferfest beer co"
+  folder: sufferfest 
 
 # :12,25s/ElDestilado_\(\d\+\)x\(\d\+\)px_\(\d\+\)..jpg/- image: ElDestilado_\1x\2px_\3.jpg\r\twidth: \1\r\theight: \2
 tiles:

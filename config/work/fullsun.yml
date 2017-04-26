@@ -2,14 +2,17 @@ folder: fullsun
 title: full sun
 description:
   - Inspired by California’s warm and invigorating sunshine, Full Sun is a 100% all-natural, sustainably farmed cannabis. Proudly raised under the sunbelt of Humboldt County, this brand’s product line is a result of mellow ocean breezes, towering Redwoods and sun-drenched hillsides, yielding cannabis of unparalleled quality, taste, and performance.
-  - We saw an opportunity to shake up the ever-growing cannabis space with a fresh approach full of California soul. The product packaging pairs retro typography with bright colors and modern geometric patterns. A bold gradient inspired by nature’s skies and splashes of gold foil add a burst of premium shine.
-link: https://www.full-sun.com
+  - We saw an opportunity to shake up the ever-growing cannabis space with a fresh approach full of California soul. The product packaging pairs retro typography with bright colors and modern geometric patterns. A bold gradient inspired by nature’s skies and splashes of gold foil add a burst of premium shine. <a href="https://www.full-sun.com">www.full-sun.com</a>
 services:
   - brand identity
   - packaging
   - copywriting
   - web design + development
   - Mobile Apps
+
+next:
+  name: "next: El Destilado"
+  folder: eldestilado 
 
 tiles:
   - image: FullSun_684x525px_1.jpg
