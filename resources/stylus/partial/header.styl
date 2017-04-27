@@ -1,3 +1,44 @@
+
+
+.contact
+  float right
+  gf(copy2s)
+  > .title, > .address > .line, > .email
+    margin 0 0 5px 0
+    color gc(grey1)
+    gf(copy2s)
+  > .address
+    transition color 0.1s linear 0s
+    &:hover
+      color gc(gold1)
+  > .email
+    display block
+    width 18px
+    height 15px
+    &:hover
+      > svg > path
+        fill gc(blue1)
+    > svg > path
+      fill gc(grey1)
+      transition fill 0.1s linear
+
+.socials
+  position fixed
+  top 155px
+  > a.social
+    display block
+    width 20px
+    height 20px
+    padding  10px 5px 10px 5px
+    > svg > path, > svg > rect
+      fill gc(grey1)
+      transition fill 0.1s linear 0s
+    &:hover > svg > path, > svg > rect
+      fill gc(blue1)
+
+
+
+
 header
   position relevant
   > .logo
@@ -25,54 +66,16 @@ header
       &.on, &:hover
         color gc(gold1)
 
-  .contact
-    float right
-    gf(copy2s)
-    color gc(grey1)
-    > .title, > .address > .line, > .email
-      margin 0 0 5px 0
-      color gc(grey1)
-      gf(copy2s)
-    > .address
-      transition color 0.1s linear 0s
-      &:hover
-        color gc(gold1)
-    > .email
-      display block
-      width 18px
-      height 15px
-      &:hover
-        > svg > path
-          fill gc(blue1)
-      > svg > path
-        fill gc(grey1)
-        transition fill 0.1s linear
-
-  .socials
-    position fixed
-    top 155px
-    > a.social
-      display block
-      width 20px
-      height 20px
-      padding  10px 5px 10px 5px
-      > svg > path, > svg > rect
-        fill gc(grey1)
-        transition fill 0.1s linear 0s
-      &:hover > svg > path, > svg > rect
-        fill gc(blue1)
-
 @media all and (min-width: 1px) and (max-width: 1000px)
   header
+    padding 0 0 30px 0
     > .logo
       margin 0
     > .menu
-      float none
-      clear both
-      margin auto
-      padding 20px 0 
-      width 234px
+      display none
     > .socials
       display none
     > .contact
       display none
+    > .burger 
+      display block

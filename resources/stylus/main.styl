@@ -14,6 +14,10 @@ body
   margin 0 10px 0 10px
   //text-align justify
 
+
+.mobile
+  display none
+
 .container
   width 1168px
   margin auto
@@ -35,8 +39,11 @@ body
 
 a
   text-decoration none
+  position relative
 
 @media all and (min-width: 1px) and (max-width: 1000px)
+  .mobile
+    display block
   body
     padding 0
     margin 0

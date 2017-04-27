@@ -1,0 +1,78 @@
+
+.mobile
+  top 0
+  left 0
+  position fixed
+  background-color rgba(gc(blue1), 0)
+  width 100%
+  height 100%
+  z-index 0
+  transition background-color 0.25s ease-in-out
+  &.on
+    background-color rgba(gc(blue1), 1)
+    z-index 1
+  &.off
+    > .logo
+      display none
+    > .menu
+      display none
+    > .contact
+      display none
+
+  > .logo
+    display block
+    animation fadeIn 0.25s ease-in-out 
+    width 202px
+    height 46px
+    padding 20px
+    > svg > path
+      fill gc(white1)
+
+  > .menu
+    display block
+    animation fadeIn 0.25s ease-in-out 
+    padding 60px 0 0 20px
+    > a.item
+      display block
+      gf(h1)
+      color gc(white1)
+      letter-spacing 2px
+      padding 0 0 30px 0
+
+  > .copy1, > .copyright
+    gf(copy2)
+    position absolute
+    color gc(white1)
+    text-transform uppercase
+    position absolute
+    bottom 90px
+    left 25px
+
+  > .copyright
+    bottom 30px
+    gf(copy2s)
+
+  > .contact
+    position absolute
+    bottom 120px
+    left 0px
+    margin 0 0 0 30px
+    > .title, > .address > .line, > .email
+      color gc(white1)
+      gf(copy2)
+    > .email > svg > path
+      fill gc(white1)
+      &:hover > svg > path
+        fill gc(white1)
+
+  > .socials
+    position absolute
+    top auto
+    bottom 50px
+    left 20px
+    margin 0
+    > a.social
+      float left
+      > svg > path, > svg > rect
+        fill gc(white1)
+

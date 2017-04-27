@@ -3,32 +3,10 @@ header
   a.logo(href='/')
     include ../../vector/logo1.svg
 
-  .contact
-    .title DESIGNSAKE STUDIO
-    a.address(href=config.meta.gmap,target="_new")
-      .line 295 KANSAS STREET
-      .line SAN FRANCISCO CA
-      .line 94103 
-    a.email(href="mailto:" + config.social.mail)
-      include ../../vector/email.svg
+  include contact.pug
 
-  .menu
-    a.item.on(href='/') .work.
-    a.item(href='/studio') .studio.
-    a.item(href='/contact') .contact.
-    //a.item(href='/studio') .journal.
+  include menu.pug
 
-  .socials
-    a.social.instagram(href=config.social.instagram,target='_new')
-      include ../../vector/instagram.svg
-    a.social.pinterest(href=config.social.pinterest,target='_new')
-      include ../../vector/pinterest.svg
-    a.social.facebook(href=config.social.facebook,target='_new')
-      include ../../vector/facebook.svg
-    //a.social.dribbble(href=config.social.dribbble,target='_new')
-      include ../../vector/dribbble.svg
-    a.social.behance(href=config.social.behance,target='_new')
-      include ../../vector/behance.svg
-
+  include socials.pug
   .clear
 .clear
