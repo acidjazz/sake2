@@ -6,6 +6,10 @@
     width 364px
     min-height 600px
     margin 0 0 30px 30px
+    &.sidebar_mobile
+      display none
+    &.sidebar_desktop
+      display block
 
     > .sideimage
       width 364px
@@ -13,7 +17,6 @@
       background-image url('/images/tiles/studio/Office_364x525px_2.jpg')
       background-size contain
       float right
-
 
     > .largetext
       gf(h4)
@@ -82,10 +85,29 @@
 
 @media all and (min-width: 1px) and (max-width: 1000px)
   .page.studio
+    padding 0 0 30px 0
     > .sidebar
       float none
-      margin 20px 10px
       width auto
+      margin 0 0 30px 0
+      &.sidebar_mobile
+        display block
+      &.sidebar_desktop
+        display none
+      > .sideimage
+        width 100%
+        background-size cover
+        height 600px
+        float none
+      > .largetext
+        margin 0 0 30px 0
+    > .main
+      height auto
+      padding 0 0 30px 0
+    > .bottombar
+      > .listing
+        float none
+        width auto
     > .title
       gf(h3)
     > .main
