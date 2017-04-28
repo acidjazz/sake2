@@ -14,3 +14,4 @@ Index =
 
     _.swap '.burger'
     _.swap '.mobile'
+    _.swap 'body'

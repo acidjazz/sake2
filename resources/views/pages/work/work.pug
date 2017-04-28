@@ -1,10 +1,11 @@
 .page.work
 
   .sidebar.sidebar_desktop
-    .subtitle .SERVICES.
-    ul.listing
-      each service in work.services
-        li=service
+    .listing
+      .subtitle .SERVICES.
+      ul
+        each service in work.services
+          li=service
 
   .title .#{work.title}.
   .copy
@@ -12,10 +13,11 @@
       p !{p}
 
   .sidebar.sidebar_mobile
-    .subtitle .SERVICES.
-    ul.listing
-      each service in work.services
-        li=service
+    .listing
+      .subtitle .SERVICES.
+      ul
+        each service in work.services
+          li=service
 
   .tiles
     each tile in work.tiles
