@@ -108,6 +108,9 @@
         background-image url('/images/tiles/home/thumbs/UrbanKitchen_542x365px_9.jpg')
         > .image
           background-image url('/images/tiles/home/UrbanKitchen_542x365px_9.jpg')
+.home_connect
+  display none
+
 
 @media all and (min-width: 1px) and (max-width: 1000px)
   .page.home > .title
@@ -122,3 +125,23 @@
       > .image
         background-size cover !important
         background-position center
+
+
+  .home_connect
+    display block
+    > .contact
+      float none
+    > .copy1, > .copyright
+      text-transform uppercase
+      padding 10px 0 0 0
+      gf(copy2)
+      color gc(grey1)
+    > .copyright
+      bottom 30px
+      gf(copy2s)
+    > .socials
+      display block
+      > .social
+        float left
+
+
