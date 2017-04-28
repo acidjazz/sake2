@@ -1,11 +1,13 @@
 .mobile
   top 0
   left 0
+  right 0
   position fixed
   background-color gc(blue1)
   animation fadeIn 0.25s ease-in-out 
   width 100vw
-  height 100vh
+  height calc(100vh - 100px)
+  padding-bottom 100px
   z-index 2
   &.off
     display none
