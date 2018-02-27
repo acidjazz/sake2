@@ -17,48 +17,62 @@ next:
   name: "sumi"
   folder: sumi
 
-
 tiles:
-  - image: Sufferfest_684x525px_1.jpg
-    width: 684
-    height: 525
-    left: true
-  - image: Sufferfest_364x525px_2.jpg
-    width: 364
-    height: 525
-  - image: Sufferfest_520x366px_3.jpg
-    width: 520
-    height: 366
-    left: true
+  - image: Sufferfest_1075x615px_1.gif
+    width: 1075
+    height: 615
+    full: true
+  - image: Sufferfest_1075x465px_2.jpg
+    width: 1075
+    height: 465
+    full: true
 
-  - image: Sufferfest_528x366px_4.jpg
-    width: 528
-    height: 366
-    right: true
-
+  - image: Sufferfest_339x530px_3.jpg
+    width: 339
+    height: 530
+    left: true
+  - image: Sufferfest_339x530px_4.jpg
+    width: 339
+    height: 530
+    left: true
   - image: Sufferfest_339x530px_5.jpg
     width: 339
     height: 530
+    right: true
+
+  - image: Sufferfest_520x375px_6.jpg
+    clear: true
+    width: 520
+    height: 375
     left: true
-  - image: Sufferfest_339x530px_6.jpg
+  - image: Sufferfest_520x375px_7.jpg
+    width: 520
+    height: 375
+    right: true
+
+  - image: Sufferfest_365x487px_8.jpg
+    width: 365
+    height: 487
+    left: true
+
+  - image: Sufferfest_675x487px_9.jpg
+    width: 675
+    height: 487
+    right: true
+
+  - image: Sufferfest_339x334px_10.jpg
     width: 339
-    height: 530
+    height: 334
     left: true
-  - image: Sufferfest_339x530px_7.jpg
+    clear: true
+
+  - image: Sufferfest_339x334px_11.jpg
     width: 339
-    height: 530
-  - image: Sufferfest_1072x630px_8.jpg
-    width: 1072
-    height: 630
-    full: true
-  - image: Sufferfest_519x457px_9.jpg
-    width: 519
-    height: 457
+    height: 334
     left: true
-  - image: Sufferfest_526x207px_10.jpg
-    width: 526
-    height: 207
-    stack: true
-  - image: Sufferfest_526x207px_11.jpg
-    width: 526
-    height: 207
+
+  - image: Sufferfest_339x334px_12.jpg
+    width: 339
+    height: 334
+    right: true
+
